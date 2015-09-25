@@ -4,6 +4,7 @@
 	overflow: hidden;
 	z-index: 1;
 	width: 100%;
+	height: 400px;
 }
 .slider .nav-prev, .slider .nav-next {
 	position: absolute;

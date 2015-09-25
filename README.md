@@ -5,7 +5,7 @@ Unique features
 ---------------
 * Super light-weight
 * Fixed height until safe-area width is reached, only then does the height begin to scale.
-* Two animations: Fade or Slide
+* Fade animation
 
 Usage example
 -----
@@ -45,9 +45,6 @@ Live JBLSLider Demo: http://www.joellisenby.com/jblslider/
 <script src="jquery.jblslider.js"></script>
 <script>
 $("#jblslider").jblSlider({
-	animationType: 'fade',
-	width: 1400,
-	height: 400,
 	safe_area: 640,
 	duration: 1000,
 	delay: 5000,
